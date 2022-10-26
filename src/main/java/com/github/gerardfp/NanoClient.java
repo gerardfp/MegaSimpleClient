@@ -1,4 +1,4 @@
-package org.example;
+package com.github.gerardfp;
 
 import java.io.IOException;
 import java.net.URI;
@@ -6,7 +6,7 @@ import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
-public class MegaSimpleClient {
+public class NanoClient {
     public static String fetch(String url) {
         try {
             return HttpClient.newHttpClient().send(HttpRequest.newBuilder()

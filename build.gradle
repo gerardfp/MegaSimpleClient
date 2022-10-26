@@ -3,27 +3,27 @@ plugins {
     id 'maven-publish'
 }
 
-group 'org.example'
-version '1.1'
+group 'com.github.gerardfp'
+version '1.0'
 
-repositories {
-    mavenCentral()
-}
+//repositories {
+//    mavenCentral()
+//}
 
-dependencies {// ..
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
-    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
-}
+//dependencies {
+////    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+////    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+//}
+//
+//test {
+//    useJUnitPlatform()
+//}
 
-test {
-    useJUnitPlatform()
-}
-
-publishing {
-    publications {
-        gpr(MavenPublication) {
-            artifactId = "megasimpleclient"
-            from(components.java)
-        }
-    }
-}
+//publishing {
+//    publications {
+//        gpr(MavenPublication) {
+//            artifactId = "nano-client"
+//            from(components.java)
+//        }
+//    }
+//}
