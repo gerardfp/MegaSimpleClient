@@ -19,11 +19,11 @@ version '1.0'
 //    useJUnitPlatform()
 //}
 //
-//publishing {
-//    publications {
-//        gpr(MavenPublication) {
-//            artifactId = "nano-client"
-//            from(components.java)
-//        }
-//    }
-//}
+publishing {
+    publications {
+        gpr(MavenPublication) {
+            artifactId = "nano-client"
+            from(components.java)
+        }
+    }
+}
