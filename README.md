@@ -9,7 +9,7 @@ repositories {
 
 dependencies {
     // ...
-    implementation 'com.github.gerardfp:megasimpleclient:1.1'
+    implementation 'com.github.gerardfp:mega-simple-client:1.0'
 }
 ```
 
