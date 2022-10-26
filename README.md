@@ -9,11 +9,11 @@ repositories {
 
 dependencies {
     // ...
-    implementation 'com.github.gerardfp:mega-simple-client:1.0'
+    implementation 'com.github.gerardfp:nano-client:1.0'
 }
 ```
 
 ## use
 ```java
- String response = MegaSimpleClient.fetch("http://localhost:8001");
+ String response = NanoClient.fetch("http://localhost:8001");
 ```
