@@ -1,5 +1,7 @@
 ## install
 
+(Requires Java 11) 
+
 Add to `build.gradle`
 ``` groovy
 repositories {
