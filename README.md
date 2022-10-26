@@ -9,7 +9,7 @@ repositories {
 
 dependencies {
     // ...
-    implementation 'com.github.gerardfp:nano-client:1.0'
+    implementation 'com.github.gerardfp:nano-client:0.1'
 }
 ```
 
