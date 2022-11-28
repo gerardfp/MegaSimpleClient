@@ -17,5 +17,13 @@ dependencies {
 
 ## use
 ```java
- String response = NanoClient.fetch("http://localhost:8001");
+import com.github.gerardfp.NanoClient;
+
+public class Main {
+    public static void main(String[] args) {
+        String response = NanoClient.fetch("http://localhost:8001");
+        
+        System.out.println(response);
+    }
+}
 ```
